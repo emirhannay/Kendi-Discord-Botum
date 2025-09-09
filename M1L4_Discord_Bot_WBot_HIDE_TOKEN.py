@@ -16,6 +16,10 @@ async def hello(ctx):
     await ctx.send(f'Merhaba! Ben {bot.user}, bir Discord sohbet botuyum!')
 
 @bot.command()
+async def yardim2(ctx):
+    await ctx.send("Yardım 2 komutuyla alkaalı bir yazı")
+
+@bot.command()
 async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 
